@@ -5,13 +5,11 @@
   /** @type {{name: string, demo?: string, github?: string}[]} */
   const links = [
     { name: 'Todo app', demo: 'todo', github: 'todo' },
-    { name: 'Hex color picker clone', demo: 'color-picker', github: 'color-picker' }
-
-    // 'Hex color picker clone', 'https://alston13r.github.io/color-picker',
-    // 'Notepad', 'https://alston13r.github.io/notepad',
-    // 'Learning SQL', 'https://github.com/alston13r/sql-tutorial',
-    // 'Learning NEAT', 'https://github.com/alston13r/neat',
-    // 'Learning 3D graphics', 'https://github.com/alston13r/3d'
+    { name: 'Hex color picker clone', demo: 'color-picker', github: 'color-picker' },
+    { name: 'Notepad', demo: 'notepad', github: 'notepad' },
+    { name: 'Learning SQL', demo: 'sql-tutorial', github: 'sql-tutorial' },
+    { name: 'Learning NEAT', github: 'neat' },
+    { name: 'Learning 3D graphics', github: '3d' },
   ]
 
   /**
