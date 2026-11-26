@@ -7,6 +7,7 @@
   <link rel='icon' type='image/png' href='./favicon.png'>
   <link rel='stylesheet' href='./style.css'>
   <title>My Website</title>
+  <script defer src='./template-links.js'></script>
 </head>
 
 <body>
@@ -14,10 +15,9 @@
     <main>
       <h1>Welcome to my site!</h1>
       <h3>Check out some of the stuff I've made...</h3>
-      <ul>
+      <ul id='link-container'>
         <li>
-          <p>Todo app: <a href='https://alston13r.github.io/todo/' target='_blank'>https://alston13r.github.io/todo/</a>
-          </p>
+          <p>Todo app: {{https://alston13r.github.io/todo/}}</p>
         </li>
         <li>
           <p>Hex color picker clone: <a href='https://alston13r.github.io/color-picker/'
