@@ -5,15 +5,27 @@
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <link rel='icon' type='image/png' href='./favicon.png'>
+  <link rel='stylesheet' href='./style.css'>
   <title>My Website</title>
+  <script defer src='./template-links.js'></script>
 </head>
 
 <body>
-
-  <h1>
-    Alston is cool :P
-  </h1>
-
+  <div class='container'>
+    <main>
+      <h1>Welcome to my site!</h1>
+      <p>Check out some of the stuff I've made...</p>
+      <ul id='link-container'></ul>
+    </main>
+    <footer>
+      <div style='display: flex; flex-direction: column; align-items: center; padding: 10px; background-color: #eee'>
+        <div style='display: flex; flex-direction: row; gap: 40px;'>
+          <a href='https://github.com/alston13r' target='_blank'>My GitHub @alston13r</a>
+          <a href='https://github.com/alston13r/my-website' target='_blank'>Website Repo</a>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
