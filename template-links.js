@@ -2,9 +2,6 @@
   /** @type {HTMLUListElement} */
   const linkContainer = document.getElementById('link-container')
 
-  // https://alston13r.github.io/todo
-  // https://github.com/alston13r/todo
-
   /** @type {{name: string, demo?: string, github?: string}[]} */
   const links = [
     { name: 'Todo app', demo: 'todo', github: 'todo' },
@@ -15,8 +12,21 @@
     // 'Learning 3D graphics', 'https://github.com/alston13r/3d'
   ]
 
+  /**
+   * @param {string} page 
+   * @returns {string}
+   */
   const demoLink = page => `https://alston13r.github.io/${page}/`
+  /**
+   * @param {string} page 
+   * @returns {string}
+   */
   const githubLink = page => `https://github.com/alston13r/${page}`
+  /**
+   * @param {string} link 
+   * @param {string} text 
+   * @returns {string}
+   */
   const anchor = (link, text) => `<a href='${link}' target='_blank'>${text}</a>`
 
   links.forEach(link => {
