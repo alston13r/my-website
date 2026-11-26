@@ -5,6 +5,8 @@
   /** @type {{name: string, demo?: string, github?: string}[]} */
   const links = [
     { name: 'Todo app', demo: 'todo', github: 'todo' },
+    { name: 'Hex color picker clone', demo: 'color-picker', github: 'color-picker' }
+
     // 'Hex color picker clone', 'https://alston13r.github.io/color-picker',
     // 'Notepad', 'https://alston13r.github.io/notepad',
     // 'Learning SQL', 'https://github.com/alston13r/sql-tutorial',
@@ -42,9 +44,6 @@
 
 
 
-// <li>
-//   <p>Todo app: {{https://alston13r.github.io/todo/}}</p>
-// </li>
 // <li>
 //   <p>Hex color picker clone: <a href='https://alston13r.github.io/color-picker/'
 //       target='_blank'>https://alston13r.github.io/color-picker/</a></p>
