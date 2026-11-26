@@ -12,8 +12,13 @@ div.container {
   flex-direction: column;
 }
 
+div.container>main {
+  flex: 1;
+  padding: 10px;
+}
+
 div.container>footer {
-
-  /* style='position: sticky; bottom: 0; z-index: 1000;'> */
-
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
 }
